@@ -8,7 +8,7 @@
                 "offsetY": -1,
                 "predicate": {
                     "block": {
-                        "tag": "llc:cannot_spawn_surface"
+                        "tag": "llc:cannot_spawn_above"
                     }
                 }
             }
