@@ -5,10 +5,10 @@
     },
     {
         "condition": "reference",
-        "name": "llc:spawn_conditions/block"
+        "name": "llc:spawn_conditions/block_surface"
     },
     {
         "condition": "reference",
-        "name": "llc:spawn_conditions/above_block"
+        "name": "llc:spawn_conditions/block_inside"
     }
 ]
