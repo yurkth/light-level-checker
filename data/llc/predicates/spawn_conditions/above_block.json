@@ -11,6 +11,47 @@
                         "tag": "llc:cannot_spawn_above"
                     }
                 }
+            },
+            {
+                "condition": "location_check",
+                "offsetY": -1,
+                "predicate": {
+                    "block": {
+                        "tag": "slabs",
+                        "state": {
+                            "type": "bottom"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "location_check",
+                "offsetY": -1,
+                "predicate": {
+                    "block": {
+                        "tag": "stairs",
+                        "state": {
+                            "half": "bottom"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "location_check",
+                "offsetY": -1,
+                "predicate": {
+                    "block": {
+                        "blocks": [
+                            "snow"
+                        ],
+                        "state": {
+                            "layers": {
+                                "min": 2,
+                                "max": 7
+                            }
+                        }
+                    }
+                }
             }
         ]
     }
