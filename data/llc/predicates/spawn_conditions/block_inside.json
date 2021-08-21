@@ -2,10 +2,7 @@
     "condition": "location_check",
     "predicate": {
         "block": {
-            "blocks": [
-                "air",
-                "cave_air"
-            ]
+            "tag": "llc:can_spawn_inside"
         }
     }
 }

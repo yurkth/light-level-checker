@@ -8,10 +8,7 @@
                 "offsetY": -1,
                 "predicate": {
                     "block": {
-                        "blocks": [
-                            "air",
-                            "cave_air"
-                        ]
+                        "tag": "llc:cannot_spawn_surface"
                     }
                 }
             }
