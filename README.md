@@ -26,3 +26,7 @@ Minecraft Java Edition 1.17.x
 ## 開発者向け
 
 気が向いたらブログに詳しい動作について書くかもしれません。
+
+## ライセンス
+
+本データパックはMITライセンスで提供しています。詳しくは[LICENSE](https://github.com/yurkth/light-level-checker/blob/master/LICENSE)を見てください。
