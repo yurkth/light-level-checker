@@ -1,8 +1,76 @@
 {
-    "condition": "location_check",
-    "predicate": {
-        "block": {
-            "tag": "llc:can_spawn_inside"
+    "condition": "alternative",
+    "terms": [
+        {
+            "condition": "location_check",
+            "predicate": {
+                "block": {
+                    "tag": "llc:can_spawn_inside"
+                }
+            }
+        },
+        {
+            "condition": "location_check",
+            "predicate": {
+                "block": {
+                    "tag": "trapdoors",
+                    "state": {
+                        "open": true
+                    }
+                }
+            }
+        },
+        {
+            "condition": "location_check",
+            "predicate": {
+                "block": {
+                    "blocks": [
+                        "small_amethyst_bud"
+                    ],
+                    "state": {
+                        "facing": "north"
+                    }
+                }
+            }
+        },
+        {
+            "condition": "location_check",
+            "predicate": {
+                "block": {
+                    "blocks": [
+                        "small_amethyst_bud"
+                    ],
+                    "state": {
+                        "facing": "east"
+                    }
+                }
+            }
+        },
+        {
+            "condition": "location_check",
+            "predicate": {
+                "block": {
+                    "blocks": [
+                        "small_amethyst_bud"
+                    ],
+                    "state": {
+                        "facing": "west"
+                    }
+                }
+            }
+        },
+        {
+            "condition": "location_check",
+            "predicate": {
+                "block": {
+                    "blocks": [
+                        "small_amethyst_bud"
+                    ],
+                    "state": {
+                        "facing": "south"
+                    }
+                }
+            }
         }
-    }
+    ]
 }
