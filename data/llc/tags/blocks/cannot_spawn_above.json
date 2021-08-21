@@ -1,5 +1,6 @@
 {
     "values": [
+        "#llc:can_spawn_inside",
         "#anvil",
         "#beds",
         "#buttons",
@@ -14,7 +15,6 @@
         "#flower_pots",
         "#impermeable",
         "#leaves",
-        "#llc:can_spawn_inside",
         "#pressure_plates",
         "#rails",
         "#trapdoors",
