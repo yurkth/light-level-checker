@@ -1,0 +1,14 @@
+[
+    {
+        "condition": "reference",
+        "name": "llc:spawn_conditions/light_level"
+    },
+    {
+        "condition": "reference",
+        "name": "llc:spawn_conditions/block"
+    },
+    {
+        "condition": "reference",
+        "name": "llc:spawn_conditions/above_block"
+    }
+]
