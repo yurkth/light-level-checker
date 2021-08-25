@@ -1,1 +1,1 @@
-say Load Success!
+schedule function llc:check_light 5t
